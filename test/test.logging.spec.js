@@ -6,7 +6,7 @@ const chai = require('chai');
 const instance = require('../util/http/jsonPlaceholderInstance');
 const expect = chai.expect;
 
-describe.only('Tests using axios', () => {
+describe('Tests using axios', () => {
   it('should be able to fetch all posts', async () => {
     const response = await instance({
       method: 'GET',

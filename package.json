@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "axios-debug-log": "^1.0.0",
+    "chai-json-schema": "^1.5.1",
     "dotenv": "^16.4.5",
     "mochawesome": "^7.1.3"
   }
